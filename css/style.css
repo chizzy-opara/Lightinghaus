@@ -168,10 +168,38 @@ hr {
 .content-wrapper {
     padding: 0 128px;
 }
+.line {
+    position: absolute;
+    left: 128px;
+    top: 820px;
+    color: #FFFFFF;
+    /* background-color: #000000; */
+    height: 300px;
+    width: 300px;
+}
 
 .container-two {
     padding: 32px 0;
     line-height: 27px;
+}
+.in {
+    display: inline;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 120%;
+}
+.view {
+    margin-left: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 120%;
+    text-decoration-line: underline;
+    color: #F4811F;
+
 }
 .second-wrap {
     display: flex;
@@ -260,26 +288,37 @@ hr {
     line-height: 120%;
     color: #F4811F;
 }
+.arrow {
+    position: absolute;
+    padding-top: 20px;
+    right: 128px;
+    background-color: #FFFFFF;
+}
+.arrow :nth-child(2) {
+    padding-left: 28px;
+}
 
 .container-four {
     margin-top: 62px;
     line-height: 27px;
-    width: 1184px;
+    /* width: 1184px; */
+    box-shadow: 0px 24px 44px rgba(0, 0, 0, 0.1);
 }
 .fourth-des {
     padding-left: 48px;
-    height: 64px;
+    padding: 0 0 15px 48px;
 }
 .fourth-wrap {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 50% 50%;  
     padding: 16px 48px 0 48px;
-    box-shadow: 0px 24px 44px rgba(0, 0, 0, 0.1);
     height: 800px;
+    column-gap: 5px;
 }
 .fourth-images {
-    width: 256px;
+    position: relative;
+    width: 236px;
     height: 298px;
 }
 .fourth-images img {
@@ -288,20 +327,36 @@ hr {
     object-fit: cover;
     border-radius: 5px;
 }
+.pricing {
+    font-weight: bolder;
+}
+.discount {
+    position: absolute;
+    top: 28px;
+    left: 0;
+    color: #FFFFFF;
+    background-color: #000000;
+    width: 101px;
+    height: 43px;
+    display: flex;
+}
+.discount p{
+    margin: auto;
+}
 
 .container-five {
     margin-top: 64px;
     line-height: 27px;
-    width: 1184px;
+    /* width: 1184px; */
+    box-shadow: 0px 24px 44px rgba(0, 0, 0, 0.1);
 }
 .fifth-des {
-    height: 64px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 120%;
-    padding-left: 48px;
+    padding: 0 0 15px 48px;
 }
 
 .container-six {
